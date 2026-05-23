@@ -15,8 +15,28 @@
 */
 
 function getRandomInt(min, max) {
-  return 'your code here'
+    // делаем проверку на дурака
+    if (min > max) {
+        // если введено не правильно меняем местами
+        [min, max] = [max, min];
+    }
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+    // вычисяем диапазон чисел +1 чтоб дойти до максимального значения. 
+    // добавляем min как стартовое значение
 }
+
+console.log('Три примера для => getRandomInt(1, 10);');
+console.log(getRandomInt(1, 10));  
+console.log(getRandomInt(1, 10));  
+console.log(getRandomInt(1, 10));  
+console.log('Три примера для => getRandomInt(60, 50);');
+console.log(getRandomInt(60, 50)); 
+console.log(getRandomInt(60, 50)); 
+console.log(getRandomInt(60, 50)); 
+console.log('Три примера для => getRandomInt(1, 100);');
+console.log(getRandomInt(1, 100)); 
+console.log(getRandomInt(1, 100)); 
+console.log(getRandomInt(1, 100)); 
 
 /*
  Використовуйте `Math.floor`, а не `Math.round` для забезпечення рівномірного розподілення випадкових чисел.
