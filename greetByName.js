@@ -17,7 +17,7 @@
 const greetByName = (msg, name) => `${msg}, ${name}`;
 
 
-console.log('Три примера => const greetByName = (msg, name) => `${msg}, ${name}`;');
+console.log('\n\nТри примера => const greetByName = (msg, name) => `${msg}, ${name}`;');
 console.log(greetByName('I am here', 'John Snow'));
 console.log(greetByName('I love JS', 'Oleksandr Sidelnikov'));
 console.log(greetByName('I do not understand Node yet', 'Someone'));

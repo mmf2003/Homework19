@@ -6,6 +6,16 @@
 */
 
 function sumBigIntegers(numStr1, numStr2) {
-  // 'your code here'
-  return 'your code here'
+    // используем преоброзование типов.
+    return BigInt(numStr1) + BigInt(numStr2);
 }
+
+console.log(`
+
+Три примера =>
+    function sumBigIntegers(numStr1, numStr2) {
+        return BigInt(numStr1) + BigInt(numStr2);
+    }`);
+console.log(sumBigIntegers('9007199254740991', '9007199254740991'));
+console.log(sumBigIntegers('1111111111', '1111111111'));
+console.log(sumBigIntegers('99999999999999', '111111111111'));

@@ -25,15 +25,15 @@ function getRandomInt(min, max) {
     // добавляем min как стартовое значение
 }
 
-console.log('Три примера для => getRandomInt(1, 10);');
+console.log('\n\nТри примера для => getRandomInt(1, 10);');
 console.log(getRandomInt(1, 10));  
 console.log(getRandomInt(1, 10));  
 console.log(getRandomInt(1, 10));  
-console.log('Три примера для => getRandomInt(60, 50);');
+console.log('\n\nТри примера для => getRandomInt(60, 50);');
 console.log(getRandomInt(60, 50)); 
 console.log(getRandomInt(60, 50)); 
 console.log(getRandomInt(60, 50)); 
-console.log('Три примера для => getRandomInt(1, 100);');
+console.log('\n\nТри примера для => getRandomInt(1, 100);');
 console.log(getRandomInt(1, 100)); 
 console.log(getRandomInt(1, 100)); 
 console.log(getRandomInt(1, 100)); 
